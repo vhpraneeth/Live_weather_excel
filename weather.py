@@ -5,7 +5,7 @@ import pandas as pd
 
 print('Process started')
 df = pd.read_excel('Sheet.xlsx')
-main_url = 'http://api.openweathermap.org/data/2.5/weather?appid=0c42f7f6b53b244c78a418f4f181282a&q={}'  # 0760663bdd9e29d3ee8fd65cf59197e9
+main_url = 'http://api.openweathermap.org/data/2.5/weather?appid=0760663bdd9e29d3ee8fd65cf59197e9&q={}'
 
 while 1:  # repeat continuously
     new_df = []
@@ -21,7 +21,6 @@ while 1:  # repeat continuously
             row[1] = temp
             row[2] = data['main']['humidity']
         new_df.append(row)
-        print(row)
     new_df = pd.DataFrame(new_df, columns=df.keys())
     new_df.to_excel('Sheet.xlsx', index=False)
     new_df.to_csv('Sheet.csv', index=False)
