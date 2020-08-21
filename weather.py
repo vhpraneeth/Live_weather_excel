@@ -15,7 +15,7 @@ while 1:  # repeat continuously
             unit = row[3]
             url = url.format(city)
             data = requests.get(url).json()
-            temp = data['main']['temp'] - 273.15  # temperature in C
+            temp = data['main']['temp'] - 273.15  # temperature in C  - recheck values
             if 'F' in unit:
                 temp = (temp * 1.8) + 32  # to F
             row[2] = data['main']['humidity']
