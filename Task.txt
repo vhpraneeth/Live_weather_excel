@@ -1,13 +1,3 @@
 
-A sample output file for task 1 is attached with this message in case you want to refer how the output should look.
-
 Temperature Should update automatically each second, if the update value in that row is set to 1.
 And it should have a unit of Celcius of Farenheight based on the value in the Unit Column
-
-
-The assignment should be submitted on info@foxtradingsolutions.com
-
-Deadline - 25/08/2020 11:59PM.
-
-
-
