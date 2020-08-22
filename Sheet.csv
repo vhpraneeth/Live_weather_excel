@@ -1,9 +1,9 @@
 City Token,Temperature,Humidity,UNIT,Update(0/1)
 Delhi,32.0,123,C,0
 Mumbai,23.0,3,F,0
-Bangalore,27.510000000000048,65,C,1
-Hyderabad,26.410000000000025,78,C,1
-Kolkata,82.4,94,F,1
+Bangalore,26.0,74,C,1
+Hyderabad,25.0,83,C,1
+Kolkata,84.2,89,F,1
 Pune,23.0,2,F,0
-Ahmedabad,32.0,79,C,1
-Bhopal,25.0,100,C,1
+Ahmedabad,27.0,100,C,1
+Bhopal,24.0,100,C,1

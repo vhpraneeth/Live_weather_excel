@@ -18,6 +18,8 @@ while 1:  # repeat continuously
             temp = data['main']['temp'] - 273.15  # temperature in C  - recheck values
             if 'F' in unit:
                 temp = (temp * 1.8) + 32  # to F
+            temp = str(temp)
+            temp = temp[:temp.find('.')+2]
             row[1] = temp
             row[2] = data['main']['humidity']
         new_df.append(row)
