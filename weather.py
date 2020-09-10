@@ -5,7 +5,7 @@ import pandas as pd
 
 print('Process started')
 df = pd.read_excel('Sheet.xlsx')
-main_url = 'http://api.openweathermap.org/data/2.5/weather?appid=<api-key-here>&q={}'
+main_url = 'http://api.openweathermap.org/data/2.5/weather?appid=<api-key-here>&q={}'  # add api key here
 
 while 1:  # repeat continuously
     new_df = []
